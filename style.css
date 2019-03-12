@@ -1,0 +1,387 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.background-container {
+	background: linear-gradient(to bottom, #433662, #707c96, #7e9ab0);
+	width: 100%;
+	height: 130%;
+
+}
+
+/*@media screen and (min-width: 679px) {
+	.background-container {
+		background: linear-gradient(to bottom, #433662, #707c96, #7e9ab0);
+	width: 100%;
+	height: 100%;
+	}
+}*/
+.addres {
+	margin-left: calc(100% - (100% - 30px));
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.app-container {
+	width: calc(100% - 65px);
+	height: calc(100% - 65px);
+	background-color: white;
+	margin: auto;
+}
+
+.left-sidebar {
+	border-top: 5px solid #3bb4bc;
+	width: 16.6%;
+	height: calc(100% - 5px);
+	background-color: #0e1214;
+	float: left;
+}
+
+img.logo{
+  display: block;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.green-dot {
+	display: inline;
+	margin-left: 23%;
+	color: #256747;
+	font-size: 150%;
+}
+
+.red-dot {
+	display: inline;
+	margin-left: 23%;
+	color: #893839;
+	font-size: 150%;
+}
+
+.header {
+	width: 83.4%;
+	height: 7%;
+	color: #AEAEAE;
+	float: right;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-family: 'Architects Daughter', cursive;
+}
+
+.search {
+	margin-left: 5%;
+	border-radius: 20px;
+	float: left;
+	border: none;
+	box-shadow: 1px 0px 4px 1px #C0CCCC;
+}
+
+.user-container {
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+	align-items: center;
+	margin-right: 2%;
+	width: 22%
+}
+
+.user-container * {
+	cursor: pointer;
+}
+
+.opened-icon {
+	color: #879D9D;
+}
+
+.closed-icon {
+	color: #C7C7C7;
+}
+
+.header form {
+	width: auto;
+	box-sizing: border-box;
+}
+
+.header img {
+	height: 40%;
+	float: left;
+}
+
+.bell.opened {
+	background-color: red;
+}
+
+/*@media screen and (max-width: 796px) {
+	.header {
+		width: 100%;
+		height: 3%;
+	}
+}*/
+
+.content-header {
+	position: relative;
+	width: 62%;
+	height: 35%;
+	float: left;
+	background: url(img/Colbert.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+/*@media handheld and (max-width: 769px) {
+	.content-header {
+		width: 64.8%;
+		height: 15%;
+		float: left;
+		background: url(img/Colbert-small.jpg) center center no-repeat;
+		background-size: cover;
+	}
+}*/
+
+.content-header p {
+	width: 13%;
+    margin-top: 4%;
+    margin-left: 6%;
+    padding: 5px;
+    font-size: 55%;
+    text-align: center;
+	color: white;
+	background-color: rgba(150, 39, 38, 0.7);
+	cursor: default;
+}
+
+.content-header i {
+	color: white;
+	margin-left: 6%;
+    margin-top: 10%;
+    font-size: 30;
+}
+
+.content-header h1 {
+	margin-top: 3%;
+    margin-left: 6%;
+    color: #D0D5D9;
+    font-size: 115%;
+}
+
+.content-header h2 {
+	margin-top: 1%;
+    margin-left: 6%;
+    color: white;
+    font-size: 90%;
+    font-weight: 100;
+    font-family: 'Dosis', sans-serif;
+}
+
+.content-container {
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(3, 25%);
+	grid-template-rows: 25% 25% 25%;
+	grid-column-gap: 5%;
+    grid-row-gap: 7%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+	width: 62%;
+	height: 58%;
+	background-color: white;
+	float: left;
+}
+
+.menu-content-container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+	width: 100%;
+	background-color: rgba(255,255,255,.9);
+	height: 10%;
+	top:0;
+	color: #CCCCCC;
+}
+
+.right-content-menu {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+	font-size: 9;
+	margin-right: -10%;
+}
+
+.left-content-menu {
+	margin-left: -10%;
+}
+
+.left-content-menu i:first-child {
+	margin-right: 10px;
+}
+
+.right-content-menu i {
+	margin-left: 10px;
+}
+
+.content-container img {
+	width: 100%;
+	max-height: 100%
+}
+
+.right-sidebar {
+	width: 21.4%;
+	height: 58%;
+	background-color: #0e1214;
+	float: right;
+}
+
+/*@media handheld and (min-width: 769px) {
+	.right-sidebar {
+		width: 18.6%;
+		height: 82%;
+		background-color: #0e1214;
+		float: right;
+	}
+}*/
+
+.block-video {
+	position: relative;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 21.4%;
+	height:35%;
+	float: right;
+	background-color: #9e9e9e45;
+    font-size: 70%;
+}
+
+.news-container {
+	width: 80%;	
+	margin-bottom: 8%;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -22%);
+    margin-bottom: 8%;
+}
+
+.show-date{
+	color: #4e7171;
+	padding: 5px;
+}
+
+.show-name {
+	color: #C8D3D3;
+	background-color: white;
+	padding: 5px;
+}
+
+.reply-opened {
+	position: relative;
+	background-color: #CBE6E6;
+	color: #9EB8B8;
+	width: 100%;
+	height: 18%;
+	cursor: pointer;
+}
+
+.reply-closed {
+	display: none;
+}
+
+.reply-opened:before {
+ 	content: "";
+    border: 5px solid transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: #CBE6E6;
+    width: 0px;
+    height: 0px;
+    top: -9px;
+    left: 68%;
+ 	position: absolute;
+}
+
+.reply-opened p {
+	left: 15%;
+	top: 50%;
+	transform: translate(0, -50%);
+	position: absolute;
+}
+
+.reply-opened span {
+	position: absolute;
+	font-size: 200%;
+	margin-left: 4%;
+	top: 50%;
+	transform: translate(0, -50%);
+}
+
+video {
+	width: 100%;
+	border-bottom: 3px solid transparent;
+	border-image: linear-gradient(to right, #3acfd5 80%, #de6567 20%);
+	border-image-slice: 1;
+}
+
+/*@media handheld and (min-width: 769px) {
+	.block-video {
+		width: 18.6%;
+		height:15%;
+		float: right;
+		background-color: #9e9e9e45;
+	}
+}*/
+
+.icon-style {
+	width: 62px;
+	height: 65px;
+}
+
+.styleLi {
+	list-style-type: none;
+	color: #888a99;
+	cursor: pointer; 
+	font: 7pt sans-serif;
+	line-height: 25px;
+	transition: background-color 1s, color 1s;
+}
+
+.selectLi {
+	list-style-type: none;
+	color: #E5F5F6;
+	cursor: pointer; 
+	font: 7pt sans-serif;
+	line-height: 25px;
+	padding-left: 20px;
+	background-color: #3BB4BC;
+	transition: background-color 1s, color 1s;
+}
+
+
+.left-sidebar a:hover {
+	background-color: rgba(25, 30, 35, 0.7);
+	transition: background-color 1s, color 1s;
+}
+
+.left-sidebar i{
+	padding-right: 10px;
+}
+
+.left-sidebar a {
+	position: relative;
+	padding-left: 20%;
+	display: block;
+	width: 80%;
+	text-decoration: none;
+	color: #464643;
+	border-top: 1px solid transparent;
+	border-image: linear-gradient(to right, #0e1214 20%, #090b0d 20%);
+	border-image-slice: 1;
+}
+
