@@ -9,32 +9,32 @@
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
-		<title>exemple</title>
+		<title>example</title>
 	</head>
 	<body>
-		<div id="jsbackgroundContainer" class="background-container">
+		<div class="background-container">
 			<p class="addres">DRIBBBLE.COM/SOK</p>
-			<div id="jsAppContainer" class="app-container">
-				<div id="jsLeftSidebar" class="left-sidebar"> 
+			<div class="app-container">
+				<div class="left-sidebar"> 
 					<img class="logo" src='img/Logo.png' alt=''>
 					<ul>
-						<li  class="styleLi"> <a href="#" id="a1"><i class="fa fa-star-o" aria-hidden="true"></i>FEATURED</a></li>
-						<li  class="styleLi"><a href="#" id="a2"><i class="fa fa-video-camera" aria-hidden="true"></i>SHOWS</a></li>
-						<li  class="styleLi"><a href="#" id="a3">THE DAILI SHOWS</a></li>
-						<li  class="styleLi"><a href="#" id="a4">THE COLBERT REPORT</a></li>
-						<li  class="styleLi ">
+						<li  class="left-sidebar-li"> <a href="#" id="a1"><i class="fa fa-star-o" aria-hidden="true"></i>FEATURED</a></li>
+						<li  class="left-sidebar-li"><a href="#" id="a2"><i class="fa fa-video-camera" aria-hidden="true"></i>SHOWS</a></li>
+						<li  class="left-sidebar-li"><a href="#" id="a3">THE DAILY SHOWS</a></li>
+						<li  class="left-sidebar-li"><a href="#" id="a4">THE COLBERT REPORT</a></li>
+						<li  class="left-sidebar-li">
 							<a href="#" id="a5">SOUTH PARK<span class="green-dot">&#9679;</span></a>
 						</li>
-						<li  class="styleLi"><a href="#" id="a6">TOSH.D</a></li>
-						<li  class="styleLi"><a href="#" id="a7">WORKAHOLIKS</a></li>
-						<li  class="styleLi">
+						<li  class="left-sidebar-li"><a href="#" id="a6">TOSH.D</a></li>
+						<li  class="left-sidebar-li"><a href="#" id="a7">WORKAHOLIKS</a></li>
+						<li  class="left-sidebar-li">
 							<a href="#" id="a8">KEY & PEELE<span class="red-dot">&#9679;</span></a>
 						</li>
-						<li  class="styleLi"><a href="#" id="a9">MORE...</a></li>
-						<li  class="styleLi"><a href="#" id="a10"><i class="fa fa-rocket" aria-hidden="true"></i>STAND-UP</a></li>
-						<li  class="styleLi"><a href="#" id="a11"><i class="fa fa-fire" aria-hidden="true"></i>CC ROAST</a></li>
-						<li  class="styleLi"><a href="#" id="a12"><i class="fa fa-users" aria-hidden="true"></i>SOCIAL</a></li>
-						<li class="styleLi"><a href="#"id="a13"><i class="fa fa-users" aria-hidden="true"></i>TICKETS</a></li>
+						<li  class="left-sidebar-li"><a href="#" id="a9">MORE...</a></li>
+						<li  class="left-sidebar-li"><a href="#" id="a10"><i class="fa fa-rocket" aria-hidden="true"></i>STAND-UP</a></li>
+						<li  class="left-sidebar-li"><a href="#" id="a11"><i class="fa fa-fire" aria-hidden="true"></i>CC ROAST</a></li>
+						<li  class="left-sidebar-li"><a href="#" id="a12"><i class="fa fa-users" aria-hidden="true"></i>SOCIAL</a></li>
+						<li class="left-sidebar-li"><a href="#"id="a13"><i class="fa fa-users" aria-hidden="true"></i>TICKETS</a></li>
 					</ul>
 				</div>
 				<div id="jsHeader" class="header">
@@ -49,13 +49,13 @@
 						<i id="cub" class="fa fa-cubes closed-icon" aria-hidden="true"></i>
 					</div>
 				</div>
-				<div id="jsContentHeader" class="content-header">
+				<div class="content-header">
 					<p>TRENDING NOW</p>
 					<i class="fa fa-play-circle-o" aria-hidden="true"></i>
 					<h1>STEPHEN COLBERT</h1>
 					<h2>Mullinga run for the Presidency</h2>
 				</div>
-				<div id="jVideo" class="block-video">
+				<div class="block-video">
 					<div id="jsReplyThread" class="reply-closed">
 						<p>REPLY THREAD</p>
 					</div>
@@ -64,10 +64,10 @@
 						<video controls="controls">
 							<source src="video/urgant.mp4"> 
 						</video>
-						<p class="show-date">6TH FEBRUAR 2017</p>
+						<p class="show-date">6TH FEBRUARY 2017</p>
 					</div>
 				</div>
-				<div id="jsContent" class="content-container">
+				<div class="content-container">
 					<div class="menu-content-container">
 						<div class="left-content-menu" >
 							<i class="fa fa-bars" aria-hidden="true"></i>
@@ -108,7 +108,37 @@
 						<img src="img/Tig.jpg">
 					</div>
 				</div>
-				<div id="jsRightSidebar" class="right-sidebar"></div>
+				<div id="jsRightSidebar" class="right-sidebar">
+					<div class="replying-user-container">
+						<div class="replying-user">
+							<div class="replying-container">
+								<div>
+									<img src="img/Scott.png">
+									<p>Scott Burgess</p>
+									<span>2 h</span>
+								</div>
+								<p>Pull requests help you collaborate on code with other people. As pull requests are created, they’ll appear here in a searchable and filterable list.
+								</p>
+							</div>
+						</div>
+						<div class="replying-user">
+							<div class="replying-container">
+								<div>
+									<img src="img/Oksana.png">
+									<p>Oksana Frever</p>
+									<span>8 m</span>
+								</div>
+								<p>Now, GitHub will help potential first-time contributors discover issues labeled with help wanted or good first issue
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="replying-to">
+						<span>Replying to</span>
+						<p>Oksana</p>
+						<span>Start typing...</span>
+					</div>
+				</div>
 			</div>
 		</div>
 		<script type="text/javascript" src="example.js"></script>

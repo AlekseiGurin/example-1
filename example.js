@@ -10,7 +10,7 @@ function ready () {
 		a.classList.toggle('styleLi');
 		for (i = 0; i < allA.length; i++) {
 			if (allA[i].id !== a.id) {
-				allA[i].classList = 'styleLi';
+				allA[i].classList = 'left-sidebar-li';
 			};
 		};	
 	});

@@ -234,9 +234,81 @@ img.logo{
 .right-sidebar {
 	width: 21.4%;
 	height: 58%;
-	background-color: #0e1214;
+	background-color: #0E1214;
 	float: right;
+
 }
+
+.replying-user div div {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 10%;
+}
+
+.replying-container {
+	width: 80%;
+	margin-left: 15%;
+}
+
+.right-sidebar img {
+	height: 60%;
+}
+
+.replying-user {
+	background: #191E23;
+	border-top: 2px solid #090B0D;
+	color: #4F5357;
+	font-size: 70%;
+	width: 100%;
+	height: auto;
+	padding-bottom: 15px;
+}
+
+.replying-user span {
+	color: #4F5357;
+}
+
+.replying-container > div p {
+	color: #C0CCCC;
+}
+
+.replying-user-container > div:last-child {
+	color: #C0CCCC;
+} 
+
+
+.replying-to {
+	position: relative;
+	width: 80%;
+	margin-left: 15%;
+	padding-top: 15%;
+	color: #848687;
+	line-height: 30px;
+}
+
+.replying-to span:first-child {
+	float: left;
+	color: #3BB4BC;
+	margin-right: 4%;
+}
+
+.replying-to p {
+	color: #C0CCCC;
+}
+
+.replying-to:before {
+	content: "";
+	border: 5px solid transparent;
+	border-color: transparent transparent #0e1214 transparent;
+	width: 0;
+	height: 0;
+	top: -12%;
+    left: 42%;
+	position: absolute;
+}
+
 
 /*@media handheld and (min-width: 769px) {
 	.right-sidebar {
@@ -297,10 +369,7 @@ img.logo{
 .reply-opened:before {
  	content: "";
     border: 5px solid transparent;
-    border-right-color: transparent;
-    border-left-color: transparent;
-    border-top-color: transparent;
-    border-bottom-color: #CBE6E6;
+    border-color: transparent transparent #CBE6E6 transparent;
     width: 0px;
     height: 0px;
     top: -9px;
@@ -344,7 +413,7 @@ video {
 	height: 65px;
 }
 
-.styleLi {
+.left-sidebar-li {
 	list-style-type: none;
 	color: #888a99;
 	cursor: pointer; 
