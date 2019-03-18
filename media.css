@@ -1,0 +1,39 @@
+/*@media screen and (min-width: 679px) {
+	.background-container {
+		background: linear-gradient(to bottom, #433662, #707c96, #7e9ab0);
+	width: 100%;
+	height: 100%;
+	}
+}*/
+/*@media screen and (max-width: 796px) {
+	.header {
+		width: 100%;
+		height: 3%;
+	}
+}*/
+/*@media handheld and (max-width: 769px) {
+	.content-header {
+		width: 64.8%;
+		height: 15%;
+		float: left;
+		background: url(img/Colbert-small.jpg) center center no-repeat;
+		background-size: cover;
+	}
+}*/
+
+/*@media handheld and (min-width: 769px) {
+	.right-sidebar {
+		width: 18.6%;
+		height: 82%;
+		background-color: #0e1214;
+		float: right;
+	}
+}*/
+/*@media handheld and (min-width: 769px) {
+	.block-video {
+		width: 18.6%;
+		height:15%;
+		float: right;
+		background-color: #9e9e9e45;
+	}
+}*/

@@ -6,11 +6,11 @@ function ready () {
 		console.log(event.target);
 		console.log(event.currentTarget);
 		var allA = a.parentNode.parentNode.getElementsByTagName('a');
-		a.classList.toggle('selectLi');
-		a.classList.toggle('styleLi');
+		a.classList.toggle('selectA');
+		a.classList.toggle('styleA');
 		for (i = 0; i < allA.length; i++) {
 			if (allA[i].id !== a.id) {
-				allA[i].classList = 'left-sidebar-li';
+				allA[i].classList = 'styleA';
 			};
 		};	
 	});

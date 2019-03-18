@@ -8,22 +8,10 @@ body {
 	position: relative;	
 }
 
-/*@media screen and (min-width: 679px) {
-	.background-container {
-		background: linear-gradient(to bottom, #433662, #707c96, #7e9ab0);
-	width: 100%;
-	height: 100%;
-	}
-}*/
-.addres {
-	margin-left: 3%;
-	margin-top: 1%;
-}
-
 .app-container {
 	height: 130%;
 	background-color: white;
-	margin: 1% 3% 3% 3%;
+	margin: 3%;
 }
 
 .left-sidebar {
@@ -111,13 +99,6 @@ img.logo{
 	background-color: red;
 }
 
-/*@media screen and (max-width: 796px) {
-	.header {
-		width: 100%;
-		height: 3%;
-	}
-}*/
-
 .content-header {
 	position: relative;
 	width: 62%;
@@ -126,16 +107,6 @@ img.logo{
 	background: url(img/Colbert.jpg) center center no-repeat;
 	background-size: cover;
 }
-
-/*@media handheld and (max-width: 769px) {
-	.content-header {
-		width: 64.8%;
-		height: 15%;
-		float: left;
-		background: url(img/Colbert-small.jpg) center center no-repeat;
-		background-size: cover;
-	}
-}*/
 
 .content-header p {
 	width: 13%;
@@ -153,7 +124,7 @@ img.logo{
 	color: white;
 	margin-left: 6%;
     margin-top: 10%;
-    font-size: 30;
+    font-size: 220%;
 }
 
 .content-header h1 {
@@ -206,7 +177,7 @@ img.logo{
 	align-items: center;
 	justify-content: center;
 	width: auto;
-	font-size: 9;
+	font-size: 70%;
 	margin-right: -10%;
 }
 
@@ -305,21 +276,8 @@ img.logo{
 	position: absolute;
 }
 
-
-/*@media handheld and (min-width: 769px) {
-	.right-sidebar {
-		width: 18.6%;
-		height: 82%;
-		background-color: #0e1214;
-		float: right;
-	}
-}*/
-
 .block-video {
 	position: relative;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
 	width: 21.4%;
 	height:35%;
 	float: right;
@@ -335,7 +293,6 @@ img.logo{
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -22%);
-    margin-bottom: 8%;
 }
 
 .show-date{
@@ -395,21 +352,12 @@ video {
 	border-image-slice: 1;
 }
 
-/*@media handheld and (min-width: 769px) {
-	.block-video {
-		width: 18.6%;
-		height:15%;
-		float: right;
-		background-color: #9e9e9e45;
-	}
-}*/
-
 .icon-style {
 	width: 62px;
 	height: 65px;
 }
 
-.left-sidebar-li {
+.left-sidebar li {
 	list-style-type: none;
 	color: #888a99;
 	cursor: pointer; 
@@ -418,7 +366,7 @@ video {
 	transition: background-color 1s, color 1s;
 }
 
-.selectLi {
+.selectA {
 	list-style-type: none;
 	color: #E5F5F6;
 	cursor: pointer; 
@@ -428,7 +376,6 @@ video {
 	background-color: #3BB4BC;
 	transition: background-color 1s, color 1s;
 }
-
 
 .left-sidebar a:hover {
 	background-color: rgba(25, 30, 35, 0.7);
