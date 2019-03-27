@@ -16,23 +16,23 @@
 			<div class="left-sidebar"> 
 				<img class="logo" src="img/Logo.png" alt="">
 				<ul>
-					<li><a href="#" id="a1"><i class="fa fa-star-o" aria-hidden="true"></i>FEATURED</a></li>
-					<li><a href="#" id="a2"><i class="fa fa-video-camera" aria-hidden="true"></i>SHOWS</a></li>
-					<li><a href="#" id="a3">THE DAILY SHOWS</a></li>
-					<li><a href="#" id="a4">THE COLBERT REPORT</a></li>
+					<li><a href="#" id="featuredMenuItem1"><i class="fa fa-star-o" aria-hidden="true"></i>FEATURED</a></li>
+					<li><a href="#" id="featuredMenuItem2"><i class="fa fa-video-camera" aria-hidden="true"></i>SHOWS</a></li>
+					<li><a href="#" id="featuredMenuItem3">THE DAILY SHOWS</a></li>
+					<li><a href="#" id="featuredMenuItem4">THE COLBERT REPORT</a></li>
 					<li>
-						<a href="#" id="a5">SOUTH PARK<span class="green-dot">&#9679;</span></a>
+						<a href="#" id="featuredMenuItem5">SOUTH PARK<span class="green-dot">&#9679;</span></a>
 					</li>
-					<li><a href="#" id="a6">TOSH.D</a></li>
-					<li><a href="#" id="a7">WORKAHOLIKS</a></li>
+					<li><a href="#" id="featuredMenuItem6">TOSH.D</a></li>
+					<li><a href="#" id="featuredMenuItem7">WORKAHOLIKS</a></li>
 					<li>
-						<a href="#" id="a8">KEY & PEELE<span class="red-dot">&#9679;</span></a>
+						<a href="#" id="featuredMenuItem8">KEY & PEELE<span class="red-dot">&#9679;</span></a>
 					</li>
-					<li><a href="#" id="a9">MORE...</a></li>
-					<li><a href="#" id="a10"><i class="fa fa-rocket" aria-hidden="true"></i>STAND-UP</a></li>
-					<li><a href="#" id="a11"><i class="fa fa-fire" aria-hidden="true"></i>CC ROAST</a></li>
-					<li><a href="#" id="a12"><i class="fa fa-users" aria-hidden="true"></i>SOCIAL</a></li>
-					<li><a href="#"id="a13"><i class="fa fa-users" aria-hidden="true"></i>TICKETS</a></li>
+					<li><a href="#" id="featuredMenuItem9">MORE...</a></li>
+					<li><a href="#" id="featuredMenuItem10"><i class="fa fa-rocket" aria-hidden="true"></i>STAND-UP</a></li>
+					<li><a href="#" id="featuredMenuItem11"><i class="fa fa-fire" aria-hidden="true"></i>CC ROAST</a></li>
+					<li><a href="#" id="featuredMenuItem12"><i class="fa fa-users" aria-hidden="true"></i>SOCIAL</a></li>
+					<li><a href="#"id="featuredMenuItem13"><i class="fa fa-users" aria-hidden="true"></i>TICKETS</a></li>
 				</ul>
 			</div>
 			<div id="jsHeader" class="header">
@@ -59,9 +59,11 @@
 				</div>
 				<div class="news-container">
 					<p class="show-name">THE DAILY SHOW</p>
-					<video controls="controls">
-						<source src="video/urgant.mp4"> 
+					<video id="jsVideo" src="video/urgant.mp4" controls="controls">
 					</video>
+						<div id="durationBar">
+							<div id="positionBar"></div>
+						</div>
 					<p class="show-date">6TH FEBRUARY 2017</p>
 				</div>
 			</div>
