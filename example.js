@@ -1,16 +1,16 @@
 document.addEventListener('DOMContentLoaded', ready);
-
 function ready () {
 	$('a').click (function () {
-		var a = event.currentTarget;
+		var tagA = event.currentTarget;
 		console.log(event.target);
 		console.log(event.currentTarget);
-		var allA = a.parentNode.parentNode.getElementsByTagName('a');
-		a.classList.toggle('selectLi');
-		a.classList.toggle('styleLi');
-		for (i = 0; i < allA.length; i++) {
-			if (allA[i].id !== a.id) {
-				allA[i].classList = 'left-sidebar-li';
+		var allTagsA = tagA.parentNode.parentNode.getElementsByTagName('a');
+		console.log(tagA.style);
+		var styleTagsA = tagA.style;
+		tagA.classList.toggle('selectedLink');
+		for (i = 0; i < allTagsA.length; i++) {
+			if (allTagsA[i].id !== tagA.id) {
+				allTagsA[i].classList = styleTagsA;
 			};
 		};	
 	});
@@ -30,20 +30,12 @@ function ready () {
 			};
 			if (jsHeaderChild.id === ('cub')) {
 				console.log(jsHeaderChild.id);
-
 			}
 		};
 	};
-
-
-	/*var tagsI = document.getElementsByTagName('i');
-	var userContainer = document.getElementById('jsUserContainer');
-	console.log(userContainer);
-	tagsI.onclick = function() {
-		console.log('hello');
-		for (j = 0; j = tagsI.length; j++) {
-			if (tagsI[j].id === ("bell")) {};
-			console.log('hello');
-		};		
-	};*/
+	var video = document.getElementById('jsVideo');
+	video.ontimeupdate = function () {
+		var positionBar = document.getElementById('positionBar');
+		positionBar.style.width = (video.currentTime/video.duration * 100) + "%";
+	}
 };
