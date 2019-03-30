@@ -281,22 +281,20 @@ img.logo{
 }
 
 .block-video {
-	position: relative;
+	display: flex;
 	width: 21.4%;
 	height:35%;
 	float: right;
 	background-color: #9e9e9e45;
     font-size: 70%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .news-container {
 	width: 80%;	
-	margin-bottom: 8%;
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -22%);
 }
 
 .show-date{
@@ -320,7 +318,7 @@ img.logo{
 }
 
 .reply-closed {
-	display: none;
+	visibility: hidden;
 }
 
 .reply-opened:before {
