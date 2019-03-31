@@ -163,6 +163,10 @@ img.logo{
 	float: left;
 }
 
+.content-container i {
+	cursor: pointer;
+}
+
 .menu-content-container {
 	display: flex;
 	justify-content: space-around;
@@ -243,6 +247,10 @@ img.logo{
 
 .replying-container > div p {
 	color: #C0CCCC;
+}
+
+.replying-container > p {
+	font-family: 'ZCOOL XiaoWei', serif;
 }
 
 .replying-user-container > div:last-child {
@@ -350,9 +358,6 @@ img.logo{
 video {
 	width: 100%;	
 }
-/*border-bottom: 3px solid transparent;
-	border-image: linear-gradient(to right, #3acfd5 80%, #de6567 20%);
-	border-image-slice: 1;*/
 
 #durationBar {
 	width: 100%;
