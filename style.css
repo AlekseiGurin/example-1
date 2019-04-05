@@ -384,10 +384,6 @@ video {
 }
 
 .selectedLink {
-	list-style-type: none;
-	color: #E5F5F6;
-	font: 7pt sans-serif;
-	line-height: 25px;
 	background-color: #3BB4BC;
 	transition: background-color 1s, color 1s;
 }
