@@ -5,13 +5,12 @@
 
 body {
 	background: linear-gradient(to bottom, #433662, #707c96, #7e9ab0);
-	position: relative;	
+	padding: 3%;
 }
 
 .app-container {
 	height: 130%;
 	background-color: white;
-	margin: 3%;
 }
 
 .left-sidebar {
@@ -313,7 +312,7 @@ img.logo{
 .show-name {
 	color: #C8D3D3;
 	background-color: white;
-	padding: 5px;
+	padding: 5%;
 }
 
 .reply-opened {

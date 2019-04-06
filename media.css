@@ -2,7 +2,7 @@
 	.app-container {
 		height: 100%;
 	}
-	.right-sidebar,.left-sidebar li,.user-container,.menu-content-container,.block-video {
+	.right-sidebar,.left-sidebar li,.user-container,.menu-content-container, .block-video {
 		font-size: 10%;
 	}
 	.content-header,.block-video {
@@ -25,6 +25,40 @@
 		font-size: 30%;
 	}
 
-	
+	.content-container {
+	position: relative;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(5, 20%);  
+	grid-row-gap: 0%;
+	grid-column-gap: 5%;
+	width: 62%;
+	height: 58%;
+	}
+	.search {
+		height: 40%;
+	}
 
+	.header {
+		height: 4%;
+	}
+
+	.menu-content-container {
+		height: 6%;
+	}
+
+	#durationBar {
+		height: 3px;
+	}
+	.show-name {
+		padding: 3%;
+	}
+	.right-sidebar, .content-container {
+		height: 81%;
+	}
+
+	.left-sidebar li {
+	line-height: 18px;
+	
+	}
 }
