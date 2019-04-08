@@ -11,6 +11,7 @@ body {
 .app-container {
 	height: 130%;
 	background-color: white;
+	position: relative;
 }
 
 .left-sidebar {
@@ -408,3 +409,6 @@ video {
 	border-image-slice: 1;
 }
 
+#menuButton {
+	display: none;
+}
