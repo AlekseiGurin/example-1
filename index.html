@@ -3,17 +3,19 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Architects+Daughter|ZCOOL+XiaoWei" rel="stylesheet">
 		<meta name="author" content="Aleksei Gurin">
 		<meta name="keywords" content="Words">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="media.css">
 		<script src="https://code.jquery.com/jquery-2.1.0.js"></script>
 		<title>example</title>
 	</head>
 	<body>
 		<div class="app-container">
-			<div class="left-sidebar"> 
+			<div id="jsLeftSidebar" class="left-sidebar closed-menu"> 
 				<img class="logo" src="img/Logo.png" alt="">
 				<ul>
 					<li><a href="#" id="featuredMenuItem1"><i class="fa fa-star-o" aria-hidden="true"></i>FEATURED</a></li>
@@ -39,6 +41,7 @@
 				<form>
 					<input type="search" class="search">
 				</form>
+				<button id="menuButton">menu</button>
 				<div id="jsUserContainer" class="user-container">
 					<img src="img/Alejandro.jpg">
 					<p>Alejandro</p>

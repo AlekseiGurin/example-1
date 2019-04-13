@@ -38,4 +38,12 @@ function ready () {
 		var positionBar = document.getElementById('positionBar');
 		positionBar.style.width = (video.currentTime/video.duration * 100) + "%";
 	}
+
+	document.getElementById('menuButton').onclick = function () {
+		var leftSidebar = document.getElementById('jsLeftSidebar');
+		console.log(leftSidebar);
+		leftSidebar.classList.toggle('opened-menu');
+		leftSidebar.classList.toggle('closed-menu');
+	};
+	console
 };

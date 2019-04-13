@@ -5,13 +5,13 @@
 
 body {
 	background: linear-gradient(to bottom, #433662, #707c96, #7e9ab0);
-	position: relative;	
+	padding: 3%;
 }
 
 .app-container {
 	height: 130%;
 	background-color: white;
-	margin: 3%;
+	position: relative;
 }
 
 .left-sidebar {
@@ -163,6 +163,10 @@ img.logo{
 	float: left;
 }
 
+.content-container i {
+	cursor: pointer;
+}
+
 .menu-content-container {
 	display: flex;
 	justify-content: space-around;
@@ -245,6 +249,10 @@ img.logo{
 	color: #C0CCCC;
 }
 
+.replying-container > p {
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+
 .replying-user-container > div:last-child {
 	color: #C0CCCC;
 } 
@@ -281,22 +289,20 @@ img.logo{
 }
 
 .block-video {
-	position: relative;
+	display: flex;
 	width: 21.4%;
 	height:35%;
 	float: right;
 	background-color: #9e9e9e45;
     font-size: 70%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .news-container {
 	width: 80%;	
-	margin-bottom: 8%;
-	position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -22%);
 }
 
 .show-date{
@@ -307,7 +313,7 @@ img.logo{
 .show-name {
 	color: #C8D3D3;
 	background-color: white;
-	padding: 5px;
+	padding: 5%;
 }
 
 .reply-opened {
@@ -320,7 +326,7 @@ img.logo{
 }
 
 .reply-closed {
-	display: none;
+	visibility: hidden;
 }
 
 .reply-opened:before {
@@ -352,9 +358,6 @@ img.logo{
 video {
 	width: 100%;	
 }
-/*border-bottom: 3px solid transparent;
-	border-image: linear-gradient(to right, #3acfd5 80%, #de6567 20%);
-	border-image-slice: 1;*/
 
 #durationBar {
 	width: 100%;
@@ -381,10 +384,6 @@ video {
 }
 
 .selectedLink {
-	list-style-type: none;
-	color: #E5F5F6;
-	font: 7pt sans-serif;
-	line-height: 25px;
 	background-color: #3BB4BC;
 	transition: background-color 1s, color 1s;
 }
@@ -410,3 +409,6 @@ video {
 	border-image-slice: 1;
 }
 
+#menuButton {
+	display: none;
+}
