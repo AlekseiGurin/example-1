@@ -21,6 +21,7 @@
 
 	.content-header i {
 		font-size: 110%;
+		margin-top: 2%;
 	}
 
 	.content-header h1 {
@@ -94,5 +95,9 @@
 
 	.header {
 		width: 100%;
+	}
+	#mobileVersion {
+		display: block;
+		width: 50%;
 	}
 }
